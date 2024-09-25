@@ -13,10 +13,10 @@ public class CheckoutSolution {
 
     public Integer checkout(String skus) {
 
-        Integer itemCounterA = null;
-        Integer itemCounterB = null;
-        Integer itemCounterC = null;
-        Integer itemCounterD = null;
+        Integer itemCounterA = 0;
+        Integer itemCounterB = 0;
+        Integer itemCounterC = 0;
+        Integer itemCounterD = 0;
 
         for(char sku : skus.toCharArray()){
             if(sku == price_table.get(0)){
@@ -30,9 +30,13 @@ public class CheckoutSolution {
             }
         }
 
-
         
+
+        Integer totalPrice = 0;
+
+
     }
 }
+
 
 
